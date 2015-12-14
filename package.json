@@ -1,7 +1,7 @@
 {
   "name": "node_detective",
   "description": "A command-line utility tool to detect what modules are required in a NodeJS application",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/pedro93/node_detective",
   "repository": {
     "type": "git",
