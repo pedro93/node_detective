@@ -86,12 +86,11 @@ function validatePath() {
     var searchPath = "";
 
     if(!path.isAbsolute(options.directory)) {
-        searchPath = path.resolve(path.join(__dirname + '/' + options.directory));
+        searchPath = path.resolve(path.join(process.cwd() + '/' + options.directory));
     } else {
         searchPath = path.resolve(options.directory);
     }
     path.resolve( searchPath ) == path.normalize( searchPath );
-    
     return searchPath;
 }
 
